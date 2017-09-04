@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2011-2015. ShenZhen iBOXPAY Information Technology Co.,Ltd.
+  ~
+  ~ All right reserved.
+  ~
+  ~ This software is the confidential and proprietary
+  ~ information of iBoxPay Company of China.
+  ~ ("Confidential Information"). You shall not disclose
+  ~ such Confidential Information and shall use it only
+  ~ in accordance with the terms of the contract agreement
+  ~ you entered into with iBoxpay inc.
+  ~ shape_corner_orange.xml ,Created by: wangxiunian ,2015-03-06 16:58:39 ,lastModified:2015-03-06 16:58:39
+  -->
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_pressed="true">
+        <shape xmlns:android="http://schemas.android.com/apk/res/android">
+            <corners android:radius="8dip"/>
+            <solid android:color="@color/orange_press"/>
+            <stroke android:width="0.5dip" android:color="@color/gray" android:dashGap="0dip" android:dashWidth="1dip"/>
+        </shape>
+    </item>
+    <item android:state_focused="true">
+        <shape xmlns:android="http://schemas.android.com/apk/res/android">
+            <corners android:radius="8dip"/>
+            <solid android:color="@color/orange_press"/>
+            <stroke android:width="0.5dip" android:color="@color/gray" android:dashGap="0dip" android:dashWidth="1dip"/>
+        </shape>
+    </item>
+    <item android:state_selected="true">
+        <shape xmlns:android="http://schemas.android.com/apk/res/android">
+            <corners android:radius="8dip"/>
+            <solid android:color="@color/orange_press"/>
+            <stroke android:width="0.5dip" android:color="@color/gray" android:dashGap="0dip" android:dashWidth="1dip"/>
+        </shape>
+    </item>
+    <item android:state_enabled="false">
+        <shape xmlns:android="http://schemas.android.com/apk/res/android">
+            <corners android:radius="8dip"/>
+            <solid android:color="@color/cashbox300_gray"/>
+            <stroke android:width="0.5dip" android:color="@color/gray" android:dashGap="0dip" android:dashWidth="1dip"/>
+        </shape>
+    </item>
+    <item>
+        <shape xmlns:android="http://schemas.android.com/apk/res/android">
+            <corners android:radius="8dip"/>
+            <solid android:color="@color/orange_nor"/>
+            <stroke android:width="0.5dip" android:color="@color/gray" android:dashGap="0dip" android:dashWidth="1dip"/>
+        </shape>
+    </item>
+
+</selector>

@@ -1,0 +1,124 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="diver_size">0.5dp</dimen>
+    <dimen name="titlebar_height">50dp</dimen>
+    <dimen name="titlebar_title_padding">20dp</dimen>
+    <dimen name="textsize_twenty">20sp</dimen>
+    <dimen name="textsize_titlebar">20sp</dimen>
+    <dimen name="password_input_margin_vertical">8dp</dimen>
+    <dimen name="inputpwd_lenth">50dp</dimen>
+    <dimen name="password_input_keyboard_height">210dp</dimen>
+    <dimen name="paying_drawable_width">30dp</dimen>
+
+    <dimen name="textsize_titlebar_btn">20sp</dimen>
+    <dimen name="titlebar_arrow_btn_padding">12dip</dimen>
+    <dimen name="padding_two">2dip</dimen>
+    <dimen name="padding_three">3dip</dimen>
+    <dimen name="padding_four">4dip</dimen>
+    <dimen name="padding_five">5dip</dimen>
+    <dimen name="padding_six">6dip</dimen>
+    <dimen name="padding_eight">8dip</dimen>
+    <dimen name="padding_seven">7dip</dimen>
+    <dimen name="padding_ten">10dip</dimen>
+    <dimen name="margin_ten">10dip</dimen>
+    <dimen name="padding_twelve">12dp</dimen>
+    <dimen name="padding_fifteen">15dip</dimen>
+    <dimen name="padding_sixteen">16dip</dimen>
+    <dimen name="padding_eighteen">18dip</dimen>
+    <dimen name="padding_twenty">20dip</dimen>
+    <dimen name="padding_twenty_four">24dip</dimen>
+    <dimen name="payment_status_marginbottom">25dip</dimen>
+    <dimen name="padding_thirty">30dip</dimen>
+    <dimen name="padding_fifty">50dip</dimen>
+    <dimen name="toastbox_width">120dip</dimen>
+    <dimen name="titlebar_overlap">0dip</dimen>
+    <dimen name="textsize_twenty_five">25sp</dimen>
+    <dimen name="textsize_swipecard_tips">14sp</dimen>
+    <dimen name="textsize_fourteen">14sp</dimen>
+    <dimen name="swipecard_tips_margintop">6dip</dimen>
+    <dimen name="medium_length">180dp</dimen>
+    <dimen name="payresultbtn_marginbottom">36dip</dimen>
+    <dimen name="textsize_subtitle">20sp</dimen>
+
+    <dimen name="margin_horizontal">10dip</dimen>
+    <dimen name="normal_height">52dip</dimen>
+    <dimen name="normal_item_height">54dip</dimen>
+    <dimen name="textview_normal_height">52dip</dimen>
+    <dimen name="margin_vertical">12dip</dimen>
+    <dimen name="margin_twenty">20dip</dimen>
+    <dimen name="checkbox_padding_left">20dp</dimen>
+    <dimen name="textsize_sixteen">16sp</dimen>
+    <dimen name="textsize_fifteen">15sp</dimen>
+    <dimen name="textsize_eighteen">18sp</dimen>
+    <dimen name="textsize_nine">9sp</dimen>
+    <dimen name="textsize_thirty">30sp</dimen>
+
+    <!-- android 官方推荐字体大小-->
+    <dimen name="textsize_large">22sp</dimen>
+    <dimen name="textsize_medium">18sp</dimen>
+    <dimen name="textsize_normal">16sp</dimen>
+    <dimen name="textsize_smalll">14sp</dimen>
+
+    <dimen name="page_padding_size">8dp</dimen>
+    <!-- ExtendEditText Dimen -->
+    <item name="extendedittext_hint_scale" format="float" type="dimen">0.6</item>
+    <item name="extendedittext_animation_steps" format="integer" type="dimen">6</item>
+
+
+    <!--pulltorefresh-->
+    <dimen name="indicator_right_padding">10dp</dimen>
+    <dimen name="indicator_corner_radius">12dp</dimen>
+    <dimen name="indicator_internal_padding">4dp</dimen>
+    <dimen name="header_footer_left_right_padding">24dp</dimen>
+    <dimen name="header_footer_top_bottom_padding">12dp</dimen>
+
+    <dimen name="abc_action_bar_progress_bar_size">40dp</dimen>
+    <dimen name="abc_action_bar_stacked_max_height">48dp</dimen>
+    <dimen name="abc_action_bar_stacked_tab_max_width">180dp</dimen>
+    <dimen name="abc_action_bar_subtitle_text_size">14dp</dimen>
+    <dimen name="abc_action_bar_title_text_size">18dp</dimen>
+    <dimen name="abc_config_prefDialogWidth">320dp</dimen>
+    <dimen name="abc_dropdownitem_icon_width">32dip</dimen>
+    <dimen name="abc_dropdownitem_text_padding_left">8dip</dimen>
+    <dimen name="abc_dropdownitem_text_padding_right">8dip</dimen>
+    <dimen name="abc_panel_menu_list_width">296dp</dimen>
+    <dimen name="abc_search_view_preferred_width">320dip</dimen>
+
+    <!--键盘页面列字体-->
+    <dimen name="numeic_keyboard_col_textsize">32sp</dimen>
+    <dimen name="regin_description">60dp</dimen>
+
+    <!-- 刷卡页面, 大挡板离左边的距离 -->
+
+    <dimen name="body_margin_4">10dp</dimen>
+    <dimen name="body_margin_5">6dp</dimen>
+    <dimen name="body_margin_8">0dp</dimen>
+
+
+    <dimen name="body_height_2">70dp</dimen>
+    <dimen name="body_height_4">45dp</dimen>
+
+    <dimen name="font_body_3">13sp</dimen>
+    <dimen name="font_body_4">16sp</dimen>
+    <dimen name="font_body_5">15sp</dimen>
+    <dimen name="font_body_6">25sp</dimen>
+
+    <dimen name="margin_body_5">@dimen/payment_status_marginbottom</dimen>
+
+    <!-- 新版首页，各种距离 -->
+    <dimen name="home_advertising_height">86dp</dimen>
+    <dimen name="home_advertising_padding">7dp</dimen>
+    <dimen name="home_title_height">145dp</dimen>
+    <dimen name="home_feature_height">100dp</dimen>
+    <dimen name="home_hybird_height">83dp</dimen>
+    <dimen name="home_hybird_text_margintop">8dp</dimen>
+    <dimen name="password_item_padding">10dp</dimen>
+    <dimen name="password_delete_height">60dp</dimen>
+
+    <!-- 键盘页 -->
+    <dimen name="keyboard_item_size">62dp</dimen>
+
+</resources>

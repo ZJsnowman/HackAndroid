@@ -1,0 +1,1086 @@
+<resources>
+    <string name="app_name">HackAndroid</string>
+
+    <string name="title_activity_fake_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <string name="digits_verify">
+        <Data>
+            <![CDATA[0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLIMNOPQRSTUVWXYZ.$@#,_-<>]]>
+        </Data>
+    </string>
+    <string name="unknow_exception">未知错误，请联系客服</string>
+
+    <!-- Login -->
+    <string name="loginUserNameHint">输入登录账号</string>
+    <string name="loginPasswordHint">输入密码</string>
+    <string name="loginRememberMe">记住密码</string>
+    <string name="forget_password_obelize">忘记密码？</string>
+    <string name="forget_password">忘记密码</string>
+    <string name="loginSubmit">登\u0020\u0020录</string>
+    <string name="cusomter_service">服务热线:\u0020\u00201010 9888</string>
+    <string name="login_error_username">账号格式错，请输入手机号或邮箱账号</string>
+    <string name="format_error_password">密码格式错误(6–20个英文字母或数字组成)</string>
+    <string name="login_error_json">数据解析异常，请联系客服</string>
+    <string name="login_account_unexist">账户不存在</string>
+    <string name="login_unknow_status">登录失败,请联系客服</string>
+    <string name="login_account_auditing">账户审核中</string>
+    <string name="login_wrongpassword">密码错误，请重新输入</string>
+    <string name="account_forbidden">账号被禁用</string>
+
+    <!--home -->
+    <string name="tab_message">消息</string>
+    <string name="tab_me">我</string>
+
+    <!--message-->
+    <string name="message">消息</string>
+
+
+    <!-- forget pwd -->
+    <string name="phone_number_hint">手机号码</string>
+    <string name="input_pwd_reset_tip">登录账号默认为商户手机号，部分商户登录账号格式为“手机号#01”</string>
+    <string name="phone_null">手机号码不能为空</string>
+    <string name="phone_error">手机号码格式错误</string>
+    <string name="input_login_account">请输入您的登录账号</string>
+    <string name="login_account_error">登录账号非法</string>
+
+    <!-- sms verify openKey -->
+    <string name="sended_verirycode_tip">我们已发送验证码短信到您的手机%1$s，请输入短信中的验证码</string>
+    <string name="input_verirycode_hint">请输入验证码</string>
+    <string name="verify_success">验证码已发送,请查看手机</string>
+    <string name="input_verify_tip">请先获取验证码</string>
+    <string name="input_verify_tip_format">验证码格式不对</string>
+    <string name="verify_moblie_changemobile">验证手机号码</string>
+
+
+    <!-- check idcard -->
+    <string name="reset_idcard_tips">身份证号码(字母请用*代替)</string>
+    <string name="reset_idcard_tips2">为了确认您的身份，请提供商户在开通服务时所登记的身份证号码。（字母请用*代替）</string>
+    <string name="idcard_null">身份证不能为空</string>
+    <string name="idcard_error">身份证格式错误，请输入18位二代身份证号</string>
+    <string name="verifying">验证中……</string>
+    <string name="idcard_verify_fail">身份证号码不正确，请重新输入</string>
+
+    <!-- reset pwd -->
+    <string name="password_again">再次确认密码</string>
+    <string name="reset_pwd_title">修改密码</string>
+    <string name="reset_pwd_fail">重置密码失败</string>
+    <string name="pwd_cfmpwd_unequal">你两次输入的密码不一致</string>
+    <string name="pwd_empty_tip">密码不能为空</string>
+    <string name="cfm_empty_tip">确认密码不能为空</string>
+    <string name="password_format">密码由6–20位英文或数字组成</string>
+    <string name="change_success">修改成功，请重新登录</string>
+
+    <!-- choiceDeviceType -->
+    <string name="device_602_type">通刷宝系列</string>
+    <string name="device_603_type">603系列刷卡器</string>
+    <string name="choice_device_type">选择设备类型</string>
+    <string name="change_type_audio">切换音频</string>
+    <string name="change_type_bt">切换蓝牙</string>
+    <string name="bt_device_connect_failed">蓝牙连接失败</string>
+
+    <!--TZeroProtocolActivity-->
+    <string name="sign_to_agree">已阅读并同意开通</string>
+    <string name="what_is_tzero">什么是T+0到账？</string>
+    <string name="what_is_szero">什么是T+0实时到账？</string>
+
+    <string name="uploading_signal">正在上传申请协议</string>
+    <string name="tzero_open_login_again">开通成功</string>
+
+    <!-- device auth -->
+    <string name="please_plug_device">请插入设备</string>
+    <string name="audio_wait_tip">注意事项\n1.请保持网络通畅\n2.请将刷卡器插入耳机孔\n3.请保持刷卡器有充足电量</string>
+    <string name="bluetooth_scan_tip">
+        注意事项\n1.请保持设备开机且电量充足\n2.手机与设备请保持在5米范围内\n3.请保持手机网络顺畅\n4.请打开手机蓝牙开关\n5.蓝牙扫描设备需要定位权限
+    </string>
+    <string name="bluetooth_disconnect_tip">
+        您可以尝试\n1.请重启手机蓝牙\n2.检查设备是否已开机\n3.检查手机网络是否稳定\n4.在手机设置中，取消蓝牙配对，并重新开启应用
+    </string>
+    <string name="bluetooth_printer_connect_tips">
+        1.请保持打印机开机且电量充足\n2.手机与打印机请保持在5米内\n3.请保持手机网络顺畅\n4.请打开蓝牙开关
+    </string>
+    <string name="opening_bluetooth">正在开启蓝牙</string>
+    <string name="bt_scan">点击重新扫描</string>
+    <string name="bt_scaning">搜索中</string>
+    <string name="auth_success">认证成功</string>
+    <string name="auth_box_fail">认证失败</string>
+    <string name="box_connected">建立连接</string>
+    <string name="box_disconnected">断开连接</string>
+    <string name="connect_audio_failed">设备异常</string>
+    <string name="connect_bt_failed">蓝牙连接失败</string>
+    <string name="audio_plug_in">音频设备插入</string>
+    <string name="audio_plug_out">音频设备拔出</string>
+    <string name="box_authing">认证中</string>
+    <!-- swipe Card -->
+    <string name="swipe_card_tips">您本次消费:</string>
+    <string name="swipe_card_instruction_one_800">
+        刷卡时保持设备稳定连接，银行卡卡面朝上，平稳匀速刷卡。若遇刷卡无反应或提示刷卡失败，请稍后重新刷卡即可
+    </string>
+    <string name="swipe_card_instruction_two_800">插卡时将芯片部分朝上插入卡槽，若遇插卡无反应或提示插卡失败，请重新插卡</string>
+    <string name="loading_wait">请稍候\u2026</string>
+    <string name="toastbox_success">刷卡成功</string>
+    <string name="box_downgrade_trading">请插入IC卡进行交易，纯磁条卡请再次刷卡</string>
+    <string name="repeal_trans_tip">撤销交易:</string>
+    <string name="query_yuer">余额查询</string>
+    <string name="swipe_card">请刷卡</string>
+    <string name="swipe_card_plug_card">请刷卡或插卡</string>
+    <string name="click_to_back">点击任意位置返回</string>
+    <string name="swip_tip1">持金融IC复合卡（含芯片与磁条）在POS上使用时将禁止刷磁条，只能使用芯片交易</string>
+    <string name="swip_tip2">温馨提示：如果纯磁条卡被误判为IC复合卡，请再次刷卡即可进行交易</string>
+    <string name="toastbox_failure">刷卡失败,请重刷</string>
+
+    <!-- global card -->
+    <string name="swipe_card_global_currency_title">选择交易币种</string>
+    <string name="swipe_card_global_currency_tips_en">Please let the cardholder choose the transaction currency.</string>
+    <string name="swipe_card_global_currency_tips_zh">请持卡人选择交易币种</string>
+    <string name="swipe_card_global_currency_rate_en" formatted="false">Exchange rate: 1%$1s = %$2sCNY</string>
+    <string name="swipe_card_global_currency_rate_zh" formatted="false">汇率: 1%$1s = %$2s人民币</string>
+
+    <!-- password input -->
+    <string name="tzero_transfer">T+0今天到账</string>
+    <string name="tzero_transfer_soon">S+0实时到账</string>
+    <string name="balance_query">余额查询</string>
+    <string name="amount_integer_format">¥%1$s</string>
+    <string name="amount_decimal_format">.%1$s</string>
+    <string name="password_cycle">●</string>
+
+    <!-- signature -->
+    <string name="merchant_confirm_sign">商家已确认签名与卡背面的签名一致</string>
+    <string name="resignature">重新签名</string>
+    <string name="sign_hint">消费者请在此签名</string>
+    <string name="sign_notice">本人确认以上交易,同意将其计入本卡账户</string>
+    <string name="merchant_confirm_signature">商家确认签名</string>
+    <string name="payment_repeal_tips">您本次撤销</string>
+    <string name="payment_tips">您本次消费</string>
+    <string name="trading_money">%1$s元</string>
+    <!-- paying -->
+    <string name="build_connect">建立连接</string>
+    <string name="upload_paydata">上传加密数据</string>
+    <string name="second_with_kuohao">(%1$s秒)</string>
+    <string name="second_without_kuohao">%1$s秒</string>
+    <string name="waiting_pay_result">获取交易结果</string>
+    <string name="input_wrong_password">输入密码不正确</string>
+    <string name="wrongpassword_morethan_3times">您输错密码的次数过多，请换一张卡消费</string>
+    <string name="cancel_order">取消交易</string>
+    <string name="change_card">换一张卡</string>
+    <string name="unknow_payment_error_with_status">%1$s[代码:%2$s]\n请重试或联系客服1010 9888</string>
+    <string name="unknow_payment_default_msg">交易结果未知</string>
+    <string name="faild_payment_default_msg">该笔交易失败，请您重新操作。如有其它疑问，请您联系官方客服1010 9888</string>
+    <string name="error_http_exception">网络异常，请您进入“我-我的账本”查看订单最终状态</string>
+    <string name="payment_status">交易状态</string>
+    <string name="paying_timeout_tip">抱歉交易超时，请进入账本查看交易详情</string>
+    <string name="error_code">错误码:%1$s</string>
+
+    <!-- receipt info -->
+    <string name="cardholder_copy">商户存根</string>
+    <string name="merchant_copy_en">MERCHANT COPY</string>
+    <string name="cardholder_copy_cn">持卡人存根</string>
+    <string name="cardholder_copy_en">CARDHOLDER COPY</string>
+    <string name="recipt_merchant_name">MERCHANT NAME \n商户名称</string>
+    <string name="acqurer_text">ACQ\n收单行</string>
+    <string name="sing_receipt_card_no">CARD NO.\n卡号</string>
+    <string name="iss_text">ISS\n发卡行</string>
+    <string name="receipt_merchant_id">MERCHANT NO.\n商户编号</string>
+    <string name="receipt_merchant_terminal_id">TERMINAL ID\n终端编号</string>
+    <string name="receipt_operator_no">OPERATOR NO.\n操作员号</string>
+    <string name="trans_type_text">TRANS TYPE\n交易类型</string>
+    <string name="trans_batch_no_text">BATCH NO.\n批次号</string>
+    <string name="auth_no_text">AUTH NO.\n授权号</string>
+    <string name="refer_no_text">REFER NO.\n参考号</string>
+    <string name="back_trans_btn">撤销交易</string>
+    <string name="receipt_orderno">TRACE NO.\n流水号</string>
+    <string name="receipt_transaction_time">DATE/TIME\n交易日期/时间</string>
+    <string name="receipt_transaction_amount">AMOUNT\n金额</string>
+    <string name="receipt_cardholder_signature">CARDHOLDER SIGNATURE\n签名</string>
+    <string name="receipt_remark">REFERENCE\n备注</string>
+    <string name="receipt_title">签购单</string>
+    <string name="back_to_home">返回主页</string>
+
+    <!-- payment result -->
+    <string name="call_server_phone">联系客服</string>
+    <string name="ok_blank">确 认</string>
+    <string name="pay_success">交易成功</string>
+    <string name="pay_result_unknow">交易结果未知</string>
+    <string name="pay_result_unknow_try_again1">暂未获取交易结果</string>
+    <string name="undo_result_unknow">撤销结果未知</string>
+    <string name="tips_networkunstab">请您进入“我”->“我的账本”中查询该笔交易状态。如需帮助，请联系客服</string>
+    <string name="phonenum">1010 9888</string>
+    <string name="server_center">服务中心</string>
+
+    <!-- mProgressDialog -->
+    <string name="upgrade_dialog_title">发现新版本</string>
+
+    <!-- network -->
+    <string name="error_network_connection">网络连接超时,请稍候再试</string>
+    <string name="undetected_avaliable_network">未检测到可用网络</string>
+
+    <!-- commmon -->
+    <string name="back">返回</string>
+    <string name="next">下一步</string>
+    <string name="qrcode_payment">二维码收款</string>
+    <string name="please_input_idcard">请输入身份证号码（X用＊号代替）</string>
+    <string name="copyright">收单服务由易生支付提供\nCopyright © 2011–2017 iBoxPay.All Rights Reserved</string>
+    <string name="net_error">网络状态不佳，请稍后再试</string>
+    <string name="roger">知道了</string>
+    <string name="regist">注册</string>
+    <string name="login">登录</string>
+    <string name="cancel">取消</string>
+    <string name="ok">确定</string>
+    <string name="waiting">请稍等…</string>
+    <string name="login_timeout_tip">登录超时，请重新登录</string>
+    <string name="unknow">未知</string>
+    <string name="auth_title">法人身份认证</string>
+
+    <!-- IndexNumeicKeyboard -->
+    <string name="input_pay_amount_intger">¥{value}</string>
+    <string name="input_pay_amount_decimal">.{value}</string>
+    <string name="input_pay_amount_intger_default">¥0</string>
+    <string name="input_pay_amount_decimal_default">.00</string>
+    <string name="receipt_enter">刷\n卡\n收\n款</string>
+    <string name="service">服务</string>
+    <string name="more">更多</string>
+    <string name="call_server_uri">tel:10109888</string>
+    <string name="pay_failure">交易失败</string>
+
+    <!-- DynamicShareActionProvider -->
+    <string name="error_occurred">抱歉, 出错了</string>
+
+    <!-- LoginActivity -->
+    <string name="please_input_password">请输入登录密码</string>
+    <string name="password_format_error">密码格式错误(6–20个英文字母或数字组成)</string>
+
+    <!-- BoxrecogitionActivity -->
+
+    <!-- SplashActivity -->
+    <string name="update_body">
+        版本信息:\n{version_info}\n升级包大小:{package_size}\n新版本号:{new_version_number}
+    </string>
+    <string name="download_install">下载安装</string>
+    <string name="download_failture_tip">下载失败，请检查你的网络是否正常，确保能成功下载请到WIFI环境下进行</string>
+
+    <string name="downloading">下载中</string>
+    <string name="download_align">重试下载</string>
+
+    <!-- CrashSendActivity -->
+
+    <!-- IndexActivity -->
+
+    <!-- AccountFragment -->
+    <string name="my_info">我的信息</string>
+    <string name="my_account_book">我的账本</string>
+    <string name="message_center">消息中心</string>
+    <string name="help">帮助</string>
+    <string name="box_introduction">盒子介绍</string>
+    <string name="service_agreement">服务协议</string>
+    <string name="my_cashier">我的收银员</string>
+    <string name="my_device">我的设备</string>
+    <string name="change_password">修改密码</string>
+    <string name="frequence_and_help">常用帮助</string>
+    <string name="read_protocol">阅读协议</string>
+    <string name="offer_chance">申请刷卡机</string>
+    <string name="account_safe">账户安全险</string>
+    <!-- SettingActivity -->
+    <string name="bluetooth_connect_box">蓝牙连接刷卡器</string>
+    <string name="audio_connect_box">音频连接刷卡器</string>
+    <string name="cur_version_name">当前版本:V%1$s</string>
+
+    <!-- pulltorefresh -->
+    <string name="pull_to_refresh_pull_label">下拉刷新…</string>
+    <string name="pull_to_refresh_release_label">放开后刷新数据…</string>
+    <string name="pull_to_refresh_refreshing_label">正在载入…</string>
+    <string name="pull_to_refresh_from_bottom_pull_label">@string/pull_to_refresh_pull_label
+    </string>
+    <string name="pull_to_refresh_from_bottom_release_label">@string/pull_to_refresh_release_label
+    </string>
+    <string name="pull_to_refresh_from_bottom_refreshing_label">
+        @string/pull_to_refresh_refreshing_label
+    </string>
+
+    <!--AccountFragment-->
+    <string name="exit_login_mess">确认退出登录吗?</string>
+    <string name="account_progressbar_logout">正在注销\u2026</string>
+
+    <!--AboutActivity-->
+    <string name="verson_update">版本更新</string>
+    <string name="has_update_version">有新版本:%1$s</string>
+    <string name="use_last_version">已是最新版本</string>
+
+    <!-- VerifyLoginPasswordActivity -->
+    <string name="please_login_password">请输入登录密码</string>
+    <string name="about_software">关于钱盒</string>
+    <string name="title_account_info">我的信息</string>
+
+    <!--AccountInfoActivity-->
+    <string name="avatar">头像</string>
+    <string name="receipt_card_no">收款卡号</string>
+    <string name="safe_logout">安全退出</string>
+    <string name="partnerid">商户号</string>
+    <string name="binded_mobile">绑定手机</string>
+    <string name="merchant_name">商户名</string>
+    <string name="limit_rate">额度与费率</string>
+    <string name="take_photo">拍照</string>
+    <string name="pictrue_choose">从相册选取</string>
+    <string name="use_main_account_tzero">请使用店长账号%1$s申请开通T+0</string>
+
+    <!--TzeroPhoneVerfyActivity-->
+    <string name="open">开通</string>
+    <string name="open_tzero">开通T+0</string>
+    <string name="request_verify">获取验证码</string>
+    <string name="please_request_code">请获取验证码</string>
+    <string name="verfy_code_pastdue">验证码过期</string>
+    <string name="verfy_code_no_matching">验证码不匹配</string>
+    <string name="request_verify_mobile_tips">开通T+0到账业务需验证店长的手机号</string>
+    <string name="sendbill_suc">发送成功,请查收</string>
+    <string name="sendbill_fail">发送失败,请重试</string>
+
+    <string name="title_suggest_feedback">意见反馈</string>
+    <string name="complete">完成</string>
+    <string name="loading">加载中...</string>
+    <string name="exit_mess">确认退出钱盒吗？</string>
+    <string name="title_activity_web_view_test">WebViewTestActivity</string>
+    <string name="alipay_payment">支付宝收款</string>
+    <string name="wechat_payment">微信收款</string>
+    <string name="wechat_payment_vertical">微\n信\n收\n款</string>
+    <string name="alipay_paymeng_vertical">支\n付\n宝\n收\n款</string>
+    <string name="qq_payment_vertical">收\n款</string>
+    <string name="add">添加</string>
+    <string name="save">保存</string>
+    <string name="no_default_camera">没找到相机程序</string>
+    <string name="take_photo_fail">拍照失败</string>
+    <string name="cut_failure">裁剪失败</string>
+    <string name="no_remain_amount">无限额</string>
+    <string name="super_transfer">超级转账</string>
+    <string name="title_activity_phone_recharge">话费充值</string>
+    <string name="phone_paymoney_tips">月末月初为话费充值高峰期，可能会影响充值到账时间，请在24小时内关注话费到账情况。建议您提前充值，以免影响使用
+    </string>
+    <string name="loading_data">数据加载中\u2026</string>
+    <string name="phone_contact_select_title">选择号码</string>
+    <string name="phone_not_exist">号码不存在</string>
+    <string name="title_activity_credit_card_repayment">信用卡还款</string>
+    <string name="supertransfer_agreement">超级转账服务协议</string>
+    <string name="disagreement">不同意</string>
+    <string name="agree">同意</string>
+    <string name="credit_repaymoney_instructions_title">还款说明</string>
+    <string name="credit_cardno">信用卡卡号</string>
+    <string name="please_input_card">请输入卡号</string>
+    <string name="pleaseinput_credit_no_again">请再次输入卡号</string>
+    <string name="repayment_money">还款金额</string>
+    <string name="ccard_moneyandunit">还款金额(元)</string>
+    <string name="credit_card_money_hint">请输入还款金额</string>
+    <string name="phone_number">手机号码</string>
+    <string name="credit_repayment_phone_number_hint">用于接收还款短信</string>
+    <string name="ccard_paymoney_tip_twice">已阅读《还款说明》</string>
+    <string name="ccard_num_format_error">卡号格式错误</string>
+    <string name="ccard_num_confirm_null">请再次输入卡号以确认</string>
+    <string name="ccard_num_confrim_error">两次卡号输入不一致</string>
+    <string name="please_read_instruction_before">请先阅读《还款说明》</string>
+    <string name="format_money">请输入有效金额</string>
+    <string name="my_credit_card">我的信用卡</string>
+    <string name="recharge_not_null">充值面额有误</string>
+    <string name="phone_recharge_confirm">充值确认</string>
+    <string name="phone_operators">运营商</string>
+    <string name="recharge_price">充值面额</string>
+    <string name="phone_realmoney">待付金额</string>
+    <string name="super_transfer_receiver_name">收款人</string>
+    <string name="super_transfer_payee_name_hint">请输入收款人姓名</string>
+    <string name="transfer_mainbank_cardno_hint">请输入收款人卡号</string>
+    <string name="super_transfer_amount_hint">请输入转账金额</string>
+    <string name="super_transfer_payinname">付款人</string>
+    <string name="super_transfer_payer_name_hint">请输入付款人姓名</string>
+    <string name="super_transfer_payer_phone_hint">请输入付款人手机号码</string>
+    <string name="transfer_text">转账</string>
+    <string name="super_transfer_tip">已阅读并同意《超级转账使用协议》</string>
+    <string name="super_transfer_payee_name">请填写收款人姓名</string>
+    <string name="super_transfer_payee_name_error">请输入正确的收款人姓名</string>
+    <string name="ccard_num_null">收款人卡号为空</string>
+    <string name="transfer_amount_hint">请输入转账金额</string>
+    <string name="card_no_format_error">卡号格式有误</string>
+    <string name="super_transfer_pay_name_hint">付款人姓名不能为空</string>
+    <string name="super_transfer_payer_name_error">请输入正确的付款人姓名</string>
+    <string name="super_transfer_phone_num_null">请输入手机号</string>
+    <string name="super_transfer_phone_num_error">付款人手机号格式错误</string>
+    <string name="id_num_emtpy">证件号码不能为空</string>
+    <string name="format_idcard_error">身份证号码错误</string>
+    <string name="super_transfer_money_max_limit">转账金额不能大于30000元</string>
+    <string name="format_money_error">请输入正确的金额</string>
+    <string name="super_transfer_please_read_intruction">请先阅读《超级转账服务协议》</string>
+    <string name="super_transfer_confirm">转账确认</string>
+    <string name="payee_people">收款人</string>
+    <string name="payee_name">收款人姓名</string>
+    <string name="payee_card_no">收款卡号</string>
+    <string name="transfer_amount">转账金额</string>
+    <string name="fee">手续费</string>
+    <string name="pay_money">实付金额</string>
+    <string name="payer_people">付款人</string>
+    <string name="payer_name">付款人姓名</string>
+    <string name="payer_cardno">付款卡号</string>
+    <string name="mobile_num">手机号码</string>
+    <string name="idcard_num">身份证号码</string>
+    <string name="repayment_confirm">还款确认</string>
+    <string name="money_is_too_large">您的交易金额过大，请联系客服</string>
+    <string name="payee_history">收款人记录</string>
+    <string name="payer_history">付款人记录</string>
+    <string name="please_connect_device">请先连接盒子</string>
+    <string name="connect_immediately">&#160;立即\n 连接</string>
+    <string name="connect_add_device">&#160;添加\n 设备</string>
+    <string name="connected_by_bluetooth">&#160;蓝牙\n 连接</string>
+    <string name="connected_by_audio">&#160;音频\n 连接</string>
+    <string name="sale_text">消费(SALE)</string>
+    <string name="void_text">消费撤销(VOID)</string>
+    <string name="knowed">知道了</string>
+    <string name="do_it_later">稍后再说</string>
+    <string name="do_it_now">现在就去</string>
+    <string name="try_it_later">未获取到商户信息，请稍后再试</string>
+    <string name="user_auth">身份验证</string>
+    <string name="main_account">店长</string>
+    <string name="cashier">收银员</string>
+    <string name="cashier_login_account">登录账号</string>
+    <string name="add_cashier_phone_tip">请输入待添加收银员的手机号</string>
+    <string name="empty_message">暂无数据，下拉可刷新</string>
+    <string name="error_message">请求失败，请下拉重试</string>
+    <string name="empty_button">继续</string>
+    <string name="error_button">@string/empty_button</string>
+    <string name="second">%1$s秒后重新发送</string>
+    <string name="yuan">元</string>
+    <string name="click_to_choice">点击选择</string>
+
+    <string name="not_bind_device_tip">您没有添加任何设备信息，请先添加设备</string>
+    <string name="device_sn">设备SN号：%1$s</string>
+    <string name="device_model">设备型号：%1$s</string>
+    <string name="device_support_card">刷卡类型：%1$s</string>
+    <string name="device_connect_type">连接类型：%1$s</string>
+    <string name="audio">音频</string>
+    <string name="bluetooth">蓝牙</string>
+    <string name="magneticStripe">磁条卡</string>
+    <string name="magneticStripeAndIcCard">磁条卡，IC卡</string>
+    <string name="audioAndBlueTooth">音频、蓝牙</string>
+    <string name="s603">603</string>
+    <string name="s603i">603i</string>
+    <string name="box602name">通刷宝602</string>
+    <string name="box600name">通刷宝600</string>
+    <string name="boxS300name">慧POS-S300</string>
+    <string name="boxK100name">K100</string>
+    <string name="boxP606name">606</string>
+    <!-- for device  add -->
+    <string name="bluetooth_scaning">蓝牙扫描中</string>
+    <string name="bluetooth_connect">蓝牙连接设备</string>
+    <string name="research">重新搜索</string>
+    <string name="audio_connect">音频连接设备</string>
+    <string name="adddevice_audio_tip">注意事项\n1.请保持网络通畅\n2.请将刷卡器插入耳机孔\n3.请保持刷卡器有充足电量</string>
+    <string name="adddevice_bluetooth_tip">
+        注意事项\n1.请保持网络通畅\n2.请开启手机蓝牙\n3.开启刷卡器并保持电量充足\n4.手机与刷卡器保持在5米范围内
+    </string>
+    <string name="add_device_scaned_tip">检测到设备，请点击需要添加的SN号</string>
+    <string name="notfind_device">未找到可用设备</string>
+    <string name="connection_bluetooth_connecting">刷卡器连接中</string>
+    <string name="reading_box">盒子识别中</string>
+    <string name="connection_bluetooth_pairing">配对中</string>
+    <string name="connect_pair_fail">配对失败</string>
+
+    <!--Common Sign Activity-->
+    <string name="sign_area_tip">在此区域签名</string>
+    <string name="saving_sign">保存签名文件……</string>
+    <string name="agreement_sign">同意并签字</string>
+    <string name="tzoro_sign_left_tip">本人已阅读T+0使用协议并签字同意</string>
+    <string name="tzoro_sign_right_tip">本合同签订与:%1$s</string>
+
+    <!--T+0 SUCCESS Activity-->
+    <string name="salimit">额度（元）</string>
+    <string name="tzero_rate">使用费率%1$s</string>
+    <string name="tzero_help">T+0到账使用帮助</string>
+    <string name="tzero_help1">如何使用T+0到账？</string>
+    <string name="tzero_help2">如何查询T+0到账交易明细？</string>
+    <string name="tzero_help3">交易已达总限额</string>
+    <string name="tzero_help4">自动转为T+1交易</string>
+    <string name="tzero_help5">交易已超出额度</string>
+    <string name="tzero_help6">交易中止</string>
+    <string name="tzero_server_license">T+0服务协议</string>
+    <string name="apply_limit">申请提额</string>
+
+    <!--TzeroSuccessActivity-->
+    <string name="auditing">审核中</string>
+    <string name="auditing_waiting">正在审核中，请耐心等候…</string>
+    <string name="suspend">已暂停</string>
+    <string name="audit_failure">审核不通过</string>
+
+    <!--TZeroInfoUploadActivity-->
+    <string name="business_license">营业执照</string>
+    <string name="business_no">营业执照号</string>
+    <string name="notnull">请输入编号</string>
+    <string name="notnull_fill">请输入编号(必填)</string>
+    <string name="organize_code_lisense">组织机构代码证</string>
+    <string name="organize_code">组织机构代码</string>
+    <string name="tax_regist">税务登记证</string>
+    <string name="tax_regist_num">税务登记证号</string>
+    <string name="submit_apply">提交申请</string>
+    <string name="upload_apply_info">申请资料上传</string>
+    <string name="businesisneed">营业执照号不能为空</string>
+    <string name="institude">组织机构代码证号不能为空</string>
+    <string name="taxregist">税务登记证号不能为空</string>
+    <string name="needtake_business_lincense">请先拍摄营业执照照片</string>
+    <string name="needtake_institude_lincense">请先拍摄组织机构代码证照片</string>
+    <string name="photo_uploadding">%1$s照片正在上传，请稍等</string>
+    <string name="needtake_taxregist_lincense">请先拍摄税务登记证照片</string>
+
+    <!--TzeroApplyResultActivity-->
+    <string name="connect_error">网络连接超时</string>
+    <string name="reapply">重新申请</string>
+    <string name="submit_apply_tzero_tip">变更申请已提交，将在3个工作日内完成审核。</string>
+    <string name="upload_error">提交失败</string>
+    <string name="submit_hassome_error_description">您提交的资料我们在后台处理中遇到了点问题，详情您可以咨询我们的客服。</string>
+    <string name="connect_description">连接超时，请检查您网络重新提交</string>
+    <string name="audit_fails">审核失败</string>
+    <string name="apply_succes">申请成功</string>
+    <string name="tzero_apply_success_description">已经为您开通T+0业务，随时收款，随时到账，祝生意兴隆！</string>
+    <string name="error">未知错误, 请联系客服</string>
+    <string name="please_input_oldpassword">请输入旧密码</string>
+    <string name="please_input_mobile">请输入您的手机号码</string>
+    <string name="please_input_verify_code">请输入验证码</string>
+    <string name="verify_code_empty_tip">验证码为空</string>
+    <string name="title_modify_phone_number">修改手机号</string>
+    <string name="valid_material">验证申请材料</string>
+    <string name="valid_material_tip">为了保证这是来自您本人的操作，请输入商户在申请服务时的材料信息</string>
+    <string name="please_receive_bankcardno">收款银行卡号</string>
+    <string name="valid_material_tip2">如果服务不是由您本人开通，请咨询开通服务的商户。</string>
+    <string name="bankcard_null_error">银行卡号不能为空</string>
+    <string name="bankcard_format_error">银行卡号格式错误</string>
+    <string name="set_new_mobile">设置新手机号码</string>
+    <string name="new_phone_tips">完成设置后，这将成为您的登录账号</string>
+    <string name="verify_mobile_tips">为了确认号码无误，我们刚发送了验证码到您的手机号码%1$s</string>
+    <string name="old_password">旧密码</string>
+
+    <!-- account book -->
+    <string name="year_month_day_week">%1$d年%2$d月%3$d日(%4$s)</string>
+    <string name="today">今天</string>
+    <string name="trans_status_fail">交易失败</string>
+    <string name="trans_status_unknow">结果未知</string>
+    <string name="trans_status_success">交易成功</string>
+    <string name="trans_status_pause">暂停结算</string>
+    <string name="trans_status_decline">已撤销</string>
+
+    <!-- pull to refresh listview -->
+    <string name="recent_update">最近更新</string>
+    <string name="refresh">刷新</string>
+    <string name="refresh_waika">Refresh\n刷新</string>
+    <string name="amount_yuan">%1$s元</string>
+    <string name="revenue_amount_yuan">收入%1$s元</string>
+    <string name="pay_amount_yuan">支出%1$s元</string>
+    <!--CashierAddActivity-->
+    <string name="add_cashier">添加收银员</string>
+    <string name="please_input_passwd">请输入密码</string>
+    <string name="please_input_cfm_passwd">请输入确认密码</string>
+    <string name="please_cashier_name">请输入收银员姓名</string>
+    <string name="add_success">添加成功</string>
+    <string name="cashier_name">收银员名字</string>
+
+    <!--CashierAddVerifyPhoneActivity-->
+    <string name="verify_failure">验证码发送失败,请重新获取验证码</string>
+
+    <!--TransactionRecordFragment-->
+    <string name="today_apply_limit">今日剩余额度%1$s元</string>
+    <string name="today_apply_limit_max">今日剩余额度</string>
+    <string name="tran_record_receive">收款记录</string>
+    <string name="tran_record_convinence">便民支付记录</string>
+    <string name="tran_record_service">服务支付记录</string>
+    <string name="near_nodata">近期无数据</string>
+    <string name="yesterday">昨天</string>
+    <string name="month_day_week">%1$d月%2$d日(%3$s)</string>
+    <string name="look_more_trans_record">使用电脑访问%1$s查询更多记录</string>
+
+    <!--ConvenientRecordFragment-->
+    <string name="records_status_pending">处理中</string>
+    <string name="records_status_success">交易成功</string>
+    <string name="records_status_failure">交易失败</string>
+    <string name="records_status_fund_return">已退款</string>
+    <string name="records_status_exception">交易异常</string>
+    <string name="records_status_exception_default_msg">
+        交易异常：该笔交易发生异常，请您进入“我-我的账本”查看订单最终状态。如有其它疑问，请您联系官方客服1010 9888
+    </string>
+    <!--TransactionDetailActivity-->
+    <string name="trans_detail">交易详情</string>
+    <string name="trans_amount">交易金额</string>
+    <string name="check_sign_order">查看签购单</string>
+    <string name="receive_deduc_money_sms">持卡人收到了扣款短信？</string>
+    <string name="settle_tzero_time">预计%1$s月%2$s日前结算</string>
+    <string name="settle_tone_time">预计%1$s月%2$s日%3$s:%4$s前结算</string>
+    <string name="settle_success_tip">请在“到账查询”中查看当日结算汇总</string>
+    <string name="trans_info_delay_reason">原因：%1$s</string>
+    <string name="trans_repeal_tip">款项已全额退款</string>
+    <string name="trans_info_declined">款项已全额退还持卡人账户</string>
+    <string name="trans_info_unknow">等待返回交易结果</string>
+    <string name="alipay">支付宝</string>
+    <string name="alipay_trade">支付宝交易</string>
+    <string name="wechat_pay">微信支付</string>
+    <string name="wechat_trade">微信交易</string>
+    <string name="qq_pay_trade">QQ钱包交易</string>
+    <string name="order_serial">流水号</string>
+    <string name="trans_time">交易时间</string>
+    <string name="actuals">现金交易</string>
+    <string name="bank_name_area">发卡行</string>
+    <string name="cardnum">卡号</string>
+    <string name="box_sn">设备SN号</string>
+    <string name="credit_card_area">信用卡发卡银行</string>
+    <string name="card_holder_name">持卡人姓名</string>
+    <string name="payer_idcard">付款人证件号</string>
+    <string name="receive_bank">收款银行</string>
+    <string name="recharge_mobile">充值号码</string>
+    <string name="pay_cardno">支付卡号</string>
+    <string name="add_remark">添加备注</string>
+
+    <string name="share_failure">分享失败</string>
+    <string name="share_success">分享成功</string>
+    <string name="share_cancel">分享取消</string>
+    <string name="share_reject">分享拒绝</string>
+    <string name="wechat_friend">微信好友</string>
+    <string name="wechat_friend_circle">微信朋友圈</string>
+    <string name="share_to">分享到</string>
+    <string name="get_picture_failure">获取图片失败</string>
+
+    <string name="modify_bankcard">修改银行卡</string>
+    <string name="valid_identity">验证身份</string>
+    <string name="valid_identity_tip">请输入登录密码用以验证您的身份。</string>
+    <string name="password">密码</string>
+    <string name="valid_mobile_number">验证手机号码</string>
+    <string name="bankcard_number">银行卡号</string>
+    <string name="issuer_location_tip">发卡行所在地</string>
+    <string name="bank_name">银行名称</string>
+    <string name="bard_regist_name">开户名</string>
+    <string name="bank_branch">开户行支行</string>
+    <string name="search_province_hint">搜索省份</string>
+    <string name="choice_province">选择省份</string>
+    <string name="search_county_hint">搜索县市区</string>
+    <string name="choice_county_hint">选择县市区</string>
+    <string name="search_city_hint">搜索县/区</string>
+    <string name="choice_city_hint">选择县/区</string>
+    <string name="bankcard_no_may_err">您的卡号%1$s未通过有效性验证，可能存在错误，请再次比对是否有误</string>
+    <string name="confirm_ok">确认无误</string>
+    <string name="back_change_bankcard">返回修改卡号</string>
+    <string name="bank_not_surpported">%1$s不支持%2$s，请返回点击‘选择银行’看看我们支持哪些银行吧</string>
+    <string name="bankcard_not_supported">该卡发卡行可能不支持%1$s，点击"选择发卡银行"看看我们支持哪些银行吧</string>
+    <string name="load_bank_card_error_try_again">加载银行信息失败，请稍后再试</string>
+    <string name="select_bank">选择银行</string>
+    <string name="notfind_branch_tip">找不到您的开户支行？\n 1、请检查您的发卡行所在省市是否与卡号一致\n
+        2、支行名称不准确可能影响您的交易到账速度，建议您向银行咨询正确的支行名称再填写。
+    </string>
+    <string name="search_branch_tips">假设您是在“深圳市高新园北区工商银行支行”开户的话，只需要输入“高新园”这样的关键词即可搜索，无需输入城市或者银行名称。
+    </string>
+    <string name="search">搜索</string>
+    <string name="manually_input_branch_name_tips">
+        如果搜索不到您的开户支行，请在以下的输入框输入支行的完整名称，如\n“深圳市高新园北区工商银行支行”。
+    </string>
+    <string name="branch_bank_full_name">发卡支行的完整名称</string>
+    <string name="input_valid_branch">请输入有效的支行名称</string>
+    <string name="please_input_bankcard_location_info">请输入发卡行所在省市</string>
+    <string name="please_input_bankcard_number">请输入银行卡卡号</string>
+    <string name="please_input_bank_name">请选择银行名称</string>
+    <string name="please_input_branch">请输入发卡行支行</string>
+    <string name="upload_newphoto">上传新的银行卡照片</string>
+    <string name="upload_newphoto_title">请依照提示上传新收款银行卡照片</string>
+    <string name="reupload">点击这里重新上传</string>
+    <string name="click_upload">点击上传</string>
+    <string name="commit">提交</string>
+    <string name="please_photo_bank_with_man_upload">请上传手持银行卡照片</string>
+    <string name="please_photo_bank_card_positive">请上传银行卡正面照</string>
+    <string name="please_select_bank_acc_name">请输入开户名</string>
+    <string name="uploading">照片上传中</string>
+    <string name="receiptor_card_info">新收款信息</string>
+    <string name="material_audit">资料审核</string>
+    <string name="modify_material">修改资料</string>
+    <string name="audit_fails_tip">抱歉,由于以下原因,暂时无法通过您的申请:\n%1$s</string>
+    <string name="super_transaction_suc">转账成功,转账金额将于当天到账,如有疑问,请联系客服</string>
+    <string name="phone_recharge_suc">充值金额将于30分钟内到账,如有疑问,请联系客服</string>
+    <string name="credit_card_repayment_suc">还款到账时间请查看\n《信用卡还款说明》</string>
+    <string name="my_bank_card">收款信息</string>
+    <string name="name">姓名</string>
+    <string name="card_number">卡号</string>
+    <string name="regist_bank">开户行</string>
+    <string name="pay_amount_text">交易金额</string>
+    <string name="pay_amount_yuan_text">¥%1$s</string>
+    <string name="pay_amount_fen_text">.%1$s</string>
+    <string name="alipay_title">支付宝收款</string>
+    <string name="weipay_title">微信二维码收款</string>
+    <string name="qq_pay_title">QQ钱包收款</string>
+    <string name="alipay_hint">请打开支付宝钱包\n使用“扫一扫”扫描二维码完成支付</string>
+    <string name="weipay_hint">请打开微信“扫一扫”\n扫描二维码完成支付</string>
+    <string name="qqpay_hint">请打开QQ钱包\n使用“扫一扫”扫描二维码完成支付</string>
+    <string name="add_device_success">添加设备成功</string>
+    <string name="trans_total_amount">
+        <Data><![CDATA[总金额：<font color="#ff6a00">%1$s</font>元]]></Data>
+    </string>
+    <string name="qrcode_pay_trans_timeout">支付超时,请重新下单</string>
+    <string name="exit_transation">是否取消交易？</string>
+    <string name="exit_weipay_transation">1、微信二维码收款不支持交易撤销\n2、若客户已付款请等待交易结果或在“我的账本”中查询,是否取消交易？
+    </string>
+    <string name="alipay_hint_step1">1.请顾客打开支付宝钱包</string>
+    <string name="alipay_hint_step2">2.使用“扫一扫”扫描二维码付款</string>
+    <string name="alipay_hint_step3">3.扫描钱盒客户端显示的二维码并在支付宝钱包上完成付款</string>
+    <string name="weipay_hint_step1">1.安装并打开微信客户端</string>
+    <string name="weipay_hint_step2">2.点击“发现”，选择"扫一扫"</string>
+    <string name="weipay_hint_step3">3.扫描钱盒客户端显示的二维码并在微信上完成付款</string>
+
+    <string name="weipay_hint_step2_1">（微信支付交易不可撤销）</string>
+    <string name="weipayscan_hint_step1">1.请客户打开微信</string>
+    <string name="weipayscan_hint_step2">2.进入微信钱包，选择“刷卡”</string>
+    <string name="weipayscan_hint_step3">3.用钱盒扫一扫出示的二维码完成收款</string>
+    <string name="phone_icon_description">Phone icon</string>
+    <string name="box602_icon">Box 602 icon</string>
+    <string name="box_authorized_mark">device authoried mark</string>
+
+    <!--ChoosePayMethodActivity-->
+    <string name="choose_pay_method">选择支付方式</string>
+    <string name="swipe_receipt">刷卡收款</string>
+    <string name="material_audit_tip">变更申请已提交，将在1-2个工作日内完成审核，审核期间的交易依然会结算到您当前的账户中。</string>
+    <string name="sdcard_is_disabled">手机SD卡不可用，请插入SD卡后重试</string>
+    <string name="request_photo_no_sdcard">无SD卡，不能拍照或选择图片</string>
+    <string name="parter_loginparam_lost">出现错误,请重试</string>
+    <string name="device_standby">设备未开机</string>
+    <string name="sn_text">SN:%1$s</string>
+    <string name="choice">选择</string>
+
+    <!--AccountInquiryActivity-->
+    <string name="account_inquiry">到账查询</string>
+    <string name="receive_amount">到账:¥%1$s</string>
+    <string name="no_settle_tip">%1$s日 预计%2$s:%3$s前结算</string>
+    <string name="settle_tip">%1$s日 %2$s:%3$s结算</string>
+    <string name="title_delay_settle_recover_amount">恢复结算的款项</string>
+    <string name="tzero_stl_text0">T+0到账交易</string>
+    <string name="tzero_stl_text1">%1$s月%2$s日交易金额</string>
+    <string name="tzero_stl_text2">%1$s日交易金额</string>
+    <string name="tzero_stl_text1_whenerror">交易金额</string>
+    <string name="tzero_stl_texterror">其它到账周期交易</string>
+    <string name="dettle_tip">具体到账时间因银行的情况而有所不同，请您耐心等候。</string>
+
+    <!--TransactionException-->
+    <string name="remark_info">备注信息</string>
+
+    <!--TransactionSignOrder-->
+    <string name="send">发送</string>
+    <string name="look_trans_map">查看交易地点</string>
+    <string name="printer_sign_order">打印签购单</string>
+    <string name="please_input_mobile_email">请输入手机号和邮箱</string>
+    <string name="please_input_email">请输入邮箱</string>
+    <string name="email_error">邮箱格式错误</string>
+
+    <!--TransactionRepealActivity-->
+    <string name="month_day_hm">%1$s月%2$s日 %3$s:%4$s</string>
+    <string name="start_repeal_trans">开始撤销交易</string>
+    <string name="repeal_tip_2">本交易已于%1$s开始结算。\n\n开始结算的交易无法发起撤销。</string>
+    <string name="repeal_tip_3">本交易已于23:00开始结算。\n\n开始结算的交易无法发起撤销。</string>
+    <string name="repeal_time">%1$d月%2$d日22:40</string>
+    <string name="repeal_content_tip">
+        本交易将于%1$s开始结算。\n\n在此之前发生商品退回或服务取消时，可以发起撤销，已扣款项将退回到持卡人账户。\n\n操作说明：\n%2$s
+    </string>
+    <string name="input_shop_box_pwd">请商家输入钱盒密码</string>
+    <string name="input_shop_box_pwd_2">用以保证交易安全</string>
+    <string name="begin_repeal">立即撤销</string>
+    <string name="box_havent_auth">盒子未认证，请先认证</string>
+
+    <!--MessageCenterActivity-->
+    <string name="messgage_empty">暂无消息</string>
+    <string name="pay_result">支付结果</string>
+    <string name="result_code">%1$s[返回码:%2$s]</string>
+    <string name="low_power">电量低,无法交易</string>
+    <string name="pre_trade_failed">取交易前置条件失败</string>
+
+    <string name="idcard_verify">确认身份</string>
+    <string name="upload_picture_error">图片上传失败</string>
+    <string name="too_many_plus_tip">最多可加20项</string>
+    <string name="modify_bankcard_permission">收银员无修改收款卡号权限</string>
+    <string name="repeal_trans_title">撤销交易</string>
+    <string name="over_single_morethan_singleamt">本次交易金额超过您的单笔最大额度</string>
+    <string name="over_single_lessthan_singleamt">交易金额不能小于[%1$s]元</string>
+    <string name="over_morethan_saremain">本次交易金额超过今日剩余额度[%1$s]元</string>
+    <string name="trading_amount_equals_zero">交易金额不能零</string>
+    <string name="not_in_china">暂不支持在中国大陆以外地区进行交易</string>
+    <string name="verify_code">验证码</string>
+    <string name="no_record">暂无记录</string>
+
+    <string name="modify_phone_number_success">修改手机号成功，请用新的手机号登录</string>
+    <string name="cfm_cardno">确认卡号</string>
+    <string name="amount">金额</string>
+
+    <string name="opened">已开通</string>
+    <string name="cfm_password">确认密码</string>
+    <string name="bank_inquiry_tip">友情提示，选择中/农/工/建/交/招等大型银行或合作银行，有助于结算款及时到账。详情>></string>
+    <string name="login_password">登录密码</string>
+
+    <string name="paying_net_not_good">网络状况不佳，请耐心等待</string>
+    <string name="timeout_reverse">网络超时，正在确认交易结果</string>
+    <string name="receipt_bank_suggest">收款银行推荐列表</string>
+    <string name="please_input_search_key">请输入搜索关键字</string>
+    <string name="upload_new_bankcard_photo">上传新银行卡照片</string>
+    <string name="upload_picture_success">图片上传成功</string>
+    <string name="sendbill_mobile_success">成功发送签购单到手机</string>
+    <string name="sendbill_mail_success">成功发送签购单到邮箱</string>
+    <string name="agree_protocal_start">同意协议，开始使用钱盒</string>
+    <string name="balance_query_result">
+        <Data><![CDATA[您的账户余额为<font color="#ff6a00">%1$s</font>元]]></Data>
+    </string>
+    <string name="phone_paymoney_tips1">暂不支持充值的手机号段有170,176,177,178号段；携号转网手机号； 家庭号码中的副号</string>
+    <string name="not_support_mobile">抱歉，170、176、177、178等号段不支持话费充值</string>
+
+    <string name="qualification_safety">安全资质</string>
+    <string name="video_introduce">视频介绍</string>
+    <string name="box_password_keyborad">600、602、606蓝牙设备</string>
+    <string name="some_exception_happend">程序遇到一点点小问题，需要重启一下</string>
+    <string name="error_desc_code">%1$s[%2$s]</string>
+    <string name="shop_share">【慧店】%1$s</string>
+    <string name="sdk_version_too_low">您当前的手机系统版本过低，请升级到安卓4.0以上系统，或到官网下载2.9.4版本钱盒</string>
+    <string name="cannot_download_file">无法下载文件，请使用浏览器下载</string>
+    <string name="amount_too_large">金额超限</string>
+    <string name="webview_test">webview调试</string>
+    <string name="is_cancel_trading">正在取消交易</string>
+    <string name="open_bluetooth_dialog">钱盒将使用您设备的蓝牙功能，点击确定同意打开蓝牙。</string>
+    <string name="raise_volume_dialog_tip">您的手机媒体音量可能无法自动调整到最大，请手动提高手机的媒体音量，以保证设备能够正常识别</string>
+    <string name="your_device_not_have_bluetooth">对不起，您的设备不具备蓝牙功能，请切换到音频使用</string>
+    <string name="your_device_not_have_blebluetooth">对不起，您的设备不支持低功耗蓝牙</string>
+    <string name="add_more_info">完善商户资料</string>
+    <string name="improve_limit">提高额度</string>
+    <string name="exception_hand">异常交易处理</string>
+    <string name="copy">复制</string>
+
+    <string name="not_connected">请先连接蓝牙打印机</string>
+    <string name="bt_connect_success">蓝牙连接成功</string>
+    <string name="bt_connecting">蓝牙连接中</string>
+    <string name="bt_scan_over">蓝牙扫描已完成，请选择设备</string>
+    <string name="connect_pinter">连接打印机</string>
+    <string name="bt_unable">蓝牙不能使用</string>
+
+    <string name="not_repeal_repealed">该笔交易已撤销，不可重复撤销</string>
+    <string name="not_repeal_trade_fail">该笔为失败交易，不可撤销</string>
+    <string name="not_repeal_trade_tzero">该笔为T+0到账交易，不可撤销</string>
+    <string name="not_repeal_inquiry">该笔交易已进入结算流程，不可撤销</string>
+    <string name="not_repeal_trade_wecaht">该笔为微信扫码交易，不可撤销</string>
+    <string name="not_repeal_other_result">该笔交易不可撤销，如有疑问请联系客服</string>
+
+    <string name="please_input_remark">您可填写需要备注的信息（50个汉字以内）</string>
+    <string name="pleease_input_remark">请输入备注</string>
+    <string name="remark_max_error">备注内容不得超过50个字</string>
+    <string name="trade_name">交易名称</string>
+    <string name="bt_not_disabled">请先打开蓝牙</string>
+    <string name="ssl_exception">证书校验错误，请检查您手机系统时间。</string>
+    <string name="box_havent_connect">盒子未连接</string>
+
+    <string name="look">查看</string>
+
+    <string name="unregisted_sn">设备：%1$s，还不是您的盒子噢</string>
+    <string name="audio_compatible_title">设备兼容性检测</string>
+    <string name="audio_compatible_header">设备兼容性检测需耗时1-3分钟，需耐心等待</string>
+    <string name="audio_testing">检测中</string>
+    <string name="audio_compatible_failed">适配失败</string>
+    <string name="audio_compatible_success">适配成功</string>
+    <string name="audio_compatible_tips1">温馨提示：</string>
+    <string name="audio_compatible_tips2">1. 设备电量要充足</string>
+    <string name="audio_compatible_tips3">绿灯闪烁请充电10-20分钟后再使用，充电时勿使用。</string>
+    <string name="audio_compatible_tips4">2. 要获得录音权限</string>
+    <string name="audio_compatible_tips5">请检查系统权限管理是否打开了钱盒的录音权限。无录音权限时无法识别。如有安装手机安全管家类软件，建议卸载。
+    </string>
+    <string name="audio_compatible_tips6">3. 调大手机音量</string>
+    <string name="audio_compatible_tips7">刷卡器与手机通过音频交换数据，请调整音量到最大。</string>
+    <string name="audio_compatible_tips8">4. 关闭手机特殊音效</string>
+    <string name="audio_compatible_tips9">
+        请检查手机声音相关设置是否有特殊音效，有特效的音频识别不稳定。常见的带音效的手机品牌有小米（米音）、华为(DTS音效、杜比音效）、三星（DTS音效）、HTC（beats音效、魔音）、魅族（均衡器）等。
+    </string>
+    <string name="order_no">订单号</string>
+    <string name="message_notiy">消息通知</string>
+    <string name="continue_pay">继续支付</string>
+    <string name="cancel_pay">取消支付</string>
+    <string name="kuaiquan_amount_tip">快券优惠¥%1$s</string>
+    <string name="not_find_preferential">未查询到优惠信息</string>
+    <string name="merchant_receive_name">收款商名称</string>
+    <string name="discount_amount">优惠金额</string>
+    <string name="login_agreement">登录即表示同意「钱盒服务协议」</string>
+    <string name="cashbox_agreement">「钱盒服务协议」</string>
+    <string name="need_device_tip">该业务需绑定刷卡器（MPOS）\n 现在购买有优惠</string>
+    <string name="need_complete_material">完善结算资料后，即可使用该功能</string>
+    <string name="buy_now">现在就买</string>
+    <string name="confirm_customer_payed">请客户确认是否已付款</string>
+
+    <string name="invite_for_gift">邀请好友</string>
+    <string name="discount_message">优惠信息</string>
+    <string name="select_coupon">选择优惠券</string>
+    <string name="my_coupon">我的优惠券</string>
+    <string name="add_account">添加收款账户</string>
+    <string name="scan_weichat_tip">将消费者微信钱包内的刷卡二维码放入框内即可自动扫描</string>
+    <string name="null_coupon">无优惠券可用</string>
+    <string name="select_coupon_tip">%1$s张可用(请选择)</string>
+    <string name="title_qrcode_scan_weichat_pay">微信扫码收款</string>
+    <string name="qrcode_scan_pay">扫码收款</string>
+
+    <string name="need_gps">该服务需要打开GPS定位功能,并授予钱盒商户通的定位权限</string>
+    <string name="select_tplus1">选择T+1</string>
+    <string name="open_gps">打开GPS</string>
+    <string name="promotion_remark">优惠信息</string>
+    <string name="coupon_count">%1$s张</string>
+    <string name="please_choice_bacnk_region">请选择发卡行所在地</string>
+    <string name="please_choice_bacnk">请先选择银行名称</string>
+    <string name="turn_off_diaodiao">请确认您的手机上安装的调调APP中音效是关闭的</string>
+    <string name="download_tools">点击下载音频适配工具</string>
+    <string name="regist_failed">设备签到失败</string>
+    <string name="upgrade_work_key_succ">更新秘钥成功，请刷卡！</string>
+    <string name="upgrade_work_key_fail">更新秘钥失败，请重新登录！</string>
+    <string name="clear_app_data">清除应用缓存</string>
+    <string name="clear_data_tip">清除缓存将还原app到初始状态，并需要重新启动应用，是否确定清除缓存？</string>
+    <string name="need_to_upgrade_to_login">需要更新版本才能登录</string>
+    <string name="file_url_is_empty">安装包下载失败</string>
+    <string name="ignore">忽略</string>
+    <string name="please_install_weichat">请先安装微信</string>
+    <string name="remain_amount_title">剩余额度</string>
+    <string name="receivable">收款</string>
+    <string name="magnetic_stripe_iccard_other">磁条卡、IC卡、非接</string>
+    <string name="loading_remain_amount">正在加载今日剩余额度...</string>
+    <string name="click_to_retry">点击重试</string>
+    <string name="normal_repeal_step">1、商家输入登录密码\n2、消费者刷卡\n3、消费者输入密码\n4、消费者签名\n5、完成</string>
+    <string name="qrpay_repeal_step">1、商户输入钱盒登录密码\n2、点击下一步，撤销完成</string>
+    <string name="fail_and_pull_to_refresh">额度数据获取失败,请下拉刷新</string>
+    <string name="copy_success">复制成功</string>
+    <string name="amount_invalid">金额无效，请重新输入</string>
+    <string name="update_box">刷卡器升级</string>
+    <string name="update_box_bt_tip">请开启手机蓝牙连接MPOS，检测固件版本</string>
+    <string name="already_newest_version">已是最新版本</string>
+    <string name="have_new_version">检测到新版本</string>
+    <string name="have_new_version_force_upgrade">您的刷卡器版本太低,请升级</string>
+    <string name="update_it_now">现在升级</string>
+    <string name="update_tip1">1.升级需要大约5~10分钟，请耐心等候！</string>
+    <string name="update_tip2">2.请确保手机和MPOS电量充足，并开启蓝牙。将手机静置在MPOS旁边，不要退出应用，以免升级失败。</string>
+    <string name="update_tip3">3.&lt;b&gt;升级失败不会对刷卡器使用造成影响&lt;/b&gt;,请放心升级。</string>
+    <string name="package_download">升级包下载</string>
+    <string name="firmware_updating">固件升级</string>
+    <string name="progress_splice">%1$s%%</string>
+    <string name="firmware_download_failed">固件下载失败，请重新下载</string>
+    <string name="firmware_saved_failed">固件保存失败，可能剩余空间不足</string>
+    <string name="download_progress_splice">已下载%1$s%%</string>
+    <string name="firmware_updated_tip">固件升级完成，版本更新至%1$s</string>
+    <string name="download_again">重新下载</string>
+    <string name="file_invalid_please_download_again">下载包校验失败，请重新下载</string>
+    <string name="pre_trade_failed_by_net">获取订单号失败,请检查网络</string>
+    <string name="box_upgrade_bt_connect_lost">蓝牙连接断开，请重新连接。</string>
+    <string name="is_supoort_s0">支持S+0</string>
+    <string name="click_to_modify_bank">点击此处，手动输入支行名称</string>
+    <string name="modify_bank_tip">您选择的银行暂不支持极速到账（S+0）服务，您确定要选择吗？</string>
+    <string name="system_maintenance_notice">系统维护公告</string>
+    <string name="change_another_bank">换一家</string>
+    <string name="continue_choose">继续选择</string>
+    <string name="trans_result">交易结果</string>
+    <string name="enter_account_book">进入账本</string>
+    <string name="query_account_book">查看账本</string>
+    <string name="network_error_tip">网络异常</string>
+    <string name="homepage_cashbox">钱盒</string>
+    <string name="trade_result">交易结果</string>
+    <string name="return_homepage">返回首页</string>
+    <string name="query_book">账本查询</string>
+    <string name="confirm_message">确认信息</string>
+    <string name="confirm_message_accept">Accepted\n接受</string>
+    <string name="confirm_message_not_accept">Not Accepted\n不接受</string>
+
+
+    <string name="confirm_message_tip1_en">Please let the cardholder confirm the following information</string>
+    <string name="confirm_message_tip2_ch">请持卡人确认以下信息</string>
+    <string name="confirm_message_tip3_en">Foreign Amount</string>
+    <string name="confirm_message_tip4_ch">交易金额</string>
+    <string name="confirm_message_tip5_en">Mark-up</string>
+    <string name="confirm_message_tip6_ch">货币转换费率</string>
+    <string name="confirm_message_tip7_en">I accept that I have been offered a choice of currencies for payment and that this choice if final. I accept the transaction currency informed above and the conversion rate and the final amount. I acknowledge that the currency conversion is not being conducted by Visa or MasterCard.</string>
+    <string name="loginAuthCodeHint">输入验证码</string>
+    <string name="repeal_success_tip">撤销成功后交易金额将会原路返回到持卡人账户，到账时间以持卡银行信息为主</string>
+    <string name="swipe_card_unknow_type_en">Please click the refresh button to get the information of transaction currency or chooose the RMB as the transaction currency directly.</string>
+    <string name="swipe_card_unknow_type_zh">请刷新获取外币信息或直接选择人民币交易</string>
+    <string name="unknow_amount">Unknow amount\\n未知金额</string>
+    <string name="markup">%1$s%%</string>
+    <string name="foreign_amount">%1$s%2$s</string>
+    <string name="repeal_success">撤销成功</string>
+    <string name="low_version_waika_tips">该功能不可用，请升级到最新版本使用</string>
+    <string name="settle_amount_available_tip">您%1$s的可用额度为0，请上传营业执照，提升额度。</string>
+    <string name="box_update_failed">刷卡器升级出现异常，请返回重试，如有疑问请联系客服</string>
+    <string name="update_box_tip">升级过程中请不要点击操作刷卡器</string>
+    <string name="make_dir_failed">创建目录失败</string>
+    <string name="os_version_too_low">该功能适用于Android 4.0以上系统，您的系统版本过低，请更换手机或升级系统后使用。</string>
+    <string name="help_center">帮助中心</string>
+    <string name="net_error_tip">网络异常,请返回重试</string>
+    <string name="box_update_success_tip1">请务必手动重启刷卡器\n重启刷卡器后，即升级成功</string>
+    <string name="restart_and_to_home">已重启，返回首页</string>
+    <string name="dont_play_box">请勿操作刷卡器</string>
+    <string name="wait_upgrade">请等待，升级即将完成</string>
+    <string name="upgrade_success">升级成功</string>
+    <string name="please_upgrade">请升级</string>
+    <string name="coupon_not_now">暂时无法使用优惠券,请稍后再试</string>
+    <string name="net_error_bank_card_ocr">网络异常，银行卡信息验证超时，请重新认证</string>
+    <string name="bankcard_no">银行卡号</string>
+    <string name="bankcard_tips">请确保信用卡已激活可用，如无法识别请输入卡号</string>
+    <string name="input_card_no">请输入银行卡号</string>
+    <string name="bankcard_not_available">银行卡号格式错误</string>
+    <string name="iknow">我知道了</string>
+    <string name="loading_sign_failed">加载签购单失败,请退出重进</string>
+    <string name="cashbox_not_now">暂不</string>
+    <string name="cashbox_up_amount">提额</string>
+    <string name="open_by_webview">UriHandler解析</string>
+    <string name="old_webviewload">旧webview打开</string>
+    <string name="setting">设置</string>
+    <string name="caution">提示</string>
+    <string name="permission_location">当前应用缺少定位权限。 请点击\'设置\'-\'权限\'-打开定位权限。</string>
+    <string name="cashbox_trans_location">查看交易地点</string>
+    <string name="device_not_support">此手机不支持</string>
+    <string name="check_code_text">支付确认码</string>
+    <string name="qrpay_error_desc">若顾客未付款，请重新发起交易；若顾客已付款成功，请前往账本进行查看，并拍照保存顾客手机支付凭证。%1$s</string>
+    <string name="trade_money">交易金额: %1$s元</string>
+    <string name="s0_take_tip">为保障商户资金安全，需要进行拍卡认证，请准备好%1$s</string>
+    <string name="s0_risk_photo_tip">为保障用户资金安全，需进行拍卡认证，请将交易银行卡正面朝上，进行认证识别</string>
+    <string name="s0_risk_photo_tip_light">将交易银行卡正面朝上</string>
+
+    <string name="merchant_contact_card">法人(%1$s)信用卡</string>
+    <string name="default_s0_take_tip">为保障您的资金安全，需要拍摄法人的信用卡进行身份认证</string>
+    <string name="bank_card_ocr_photo_upload_failed">资料上传失败，请重试</string>
+    <string name="take_photo_first">请先点击拍卡</string>
+    <string name="device_is_no_storage">没有存储权限或剩余存储空间不够</string>
+    <string name="records_status_dealing">处理中</string>
+    <string name="s0_take_photo_limit_tip">为保障用户资金安全，需进行拍卡认证，请将交易银行卡正面朝上，进行认证识别</string>
+    <string name="s0_take_photo_limit_tip_colored">请将交易银行卡正面朝上</string>
+    <string name="voice_broadcast_setting">语音播报设置</string>
+    <string name="text_notify_customer">消息提醒</string>
+    <string name="voice_notify_customer">声音提醒</string>
+    <string name="message_title">信息提示</string>
+    <string name="reveive_successed">收款成功</string>
+    <string name="confirmcode">确认码%1$s</string>
+    <string name="horzontal_bankcard">横版银行卡</string>
+    <string name="vertical_bankcard">竖版银行卡</string>
+    <string name="s0_bankcard_risk_tip">请核对银行卡号，若识别有误，请重新识别（支持三次有效识别）</string>
+    <string name="haoda_receipt_succ">好哒收款成功</string>
+    <string name="trans_is_canceled">交易已被取消</string>
+    <string name="s0_risk_error_desc">该笔交易暂不支持S+0方式，请选择T+1交易或更换银行卡重新交易，如有疑问，请联系客服</string>
+    <string name="choice_t1">T+1收款</string>
+    <string name="bank_scan_too_many">该银行卡识别次数超限，交易已取消，请重新交易</string>
+    <string name="scan_bt_need_location_permission">扫描设备需要授予定位权限</string>
+    <string name="need_storage_permission">应用需要获取存储权限, 请点击\'设置\'-\'权限\'-打开存储权限</string>
+    <string name="need_phone_sate_permission">为了保证安全需要获取手机信息权限，请点击\'设置\'-\'权限\'-打开电话权限</string>
+    <string name="need_camera_permission">操作需要访问相机及存储权限</string>
+    <string name="audio_record_permission">使用音频接口需要录音权限</string>
+    <string name="voice_type_setting_faild">网络异常，请重新设置</string>
+    <string name="cannot_connect_bt"> 连接不上</string>
+    <string name="holder_id_card_check">持卡人身份验证</string>
+    <string name="four_element_tip1">为保证你的账户安全，请完成实名认证</string>
+    <string name="holder_name">\u0020\u0020持卡人姓名</string>
+    <string name="holder_id_card">身份证号</string>
+    <string name="holder_id_card_hint">持卡人身份证号</string>
+    <string name="holder_phone_number">手机号</string>
+    <string name="bankcard_left_phone_number">银行卡预留手机号</string>
+    <string name="input_verify_code_hint">输入验证码</string>
+    <string name="affirm">确认</string>
+    <string name="idcard_scan_tips">请将身份证正面放入扫描框内</string>
+    <string name="retrade">重新交易</string>
+    <string name="idcard_need_camera_permission">身份证识别需要相机权限</string>
+    <string name="register_new_customer">注册新用户</string>
+
+    <string name="scan_qr_to_complete">使用\"扫一扫\"扫描二维码完成支付</string>
+</resources>

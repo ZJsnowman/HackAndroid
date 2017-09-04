@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (c) 2011-2015. ShenZhen iBOXPAY Information Technology Co.,Ltd.
+  ~
+  ~ All right reserved.
+  ~
+  ~ This software is the confidential and proprietary
+  ~ information of iBoxPay Company of China.
+  ~ ("Confidential Information"). You shall not disclose
+  ~ such Confidential Information and shall use it only
+  ~ in accordance with the terms of the contract agreement
+  ~ you entered into with iBoxpay inc.
+  -->
+
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical">
+
+    <TextView
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:text="登录"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+    <LinearLayout
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <ImageView
+                android:layout_marginRight="5dp"
+                android:src="@drawable/ic_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        <EditText
+                android:textColor="@color/red"
+                android:textCursorDrawable="@null"
+                android:id="@+id/edtTxt_login_userName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="phone"
+                android:hint="请输入登录账号"/>
+    </LinearLayout>
+
+    <View
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:background="#C8C7CC"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+
+    <LinearLayout
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <ImageView
+                android:layout_marginRight="5dp"
+                android:src="@drawable/ic_lock"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        <EditText
+                android:textColor="@color/red"
+                android:textCursorDrawable="@null"
+                android:id="@+id/edtTxt_login_pwd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:hint="请输入密码"/>
+    </LinearLayout>
+
+    <View
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:background="#C8C7CC"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/margin_horizontal"
+            android:layout_marginRight="@dimen/margin_horizontal">
+
+
+        <CheckBox
+                android:id="@+id/ckb_login_rememberPwd"
+                style="@style/checkbox_style"
+                android:layout_marginTop="@dimen/padding_twelve"
+                android:checked="true"
+                android:gravity="center"
+                android:paddingLeft="@dimen/checkbox_padding_left"
+                android:text="@string/loginRememberMe"
+                android:textColor="@color/medium_gray"
+                android:textSize="@dimen/textsize_sixteen"/>
+
+        <TextView
+                android:id="@+id/tv_login_resetPwd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/ckb_login_rememberPwd"
+                android:layout_alignParentRight="true"
+                android:layout_alignTop="@id/ckb_login_rememberPwd"
+                android:layout_marginRight="5dp"
+                android:gravity="center_vertical"
+                android:text="@string/forget_password_obelize"
+                android:textColor="@color/medium_gray"
+                android:textSize="@dimen/textsize_fifteen"/>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_login_resetPwd"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+            <Button
+                    android:id="@+id/btn_login_submit"
+                    style="@style/cashbox_btn_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/loginSubmit"/>
+
+            <TextView
+                    android:id="@+id/tv_login_agreement"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/login_agreement"
+                    android:textColor="@color/medium_gray"
+                    android:textSize="@dimen/textsize_fifteen"/>
+
+        </LinearLayout>
+
+
+        <TextView
+                android:id="@+id/tv_login_callService"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="10dp"
+                android:text="@string/cusomter_service"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/medium_gray"
+                android:textSize="16sp"/>
+
+        <TextView
+                android:id="@+id/tv_register_new_customer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/tv_login_callService"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="40dp"
+                android:text="@string/register_new_customer"
+                android:textColor="@color/orange"
+                android:textSize="17sp"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

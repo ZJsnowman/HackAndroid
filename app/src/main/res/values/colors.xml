@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="transparent">#00000000</color>
+
+    <!--深灰-->
+    <color name="dark_gray">#4d4d4d</color>
+    <!--中灰-->
+    <color name="medium_gray">#787878</color>
+    <!--浅灰-->
+    <color name="light_gray">#adadad</color>
+
+    <color name="white_gray">#e9e9e9</color>
+
+    <color name="gray_unavailable">#dcdcdc</color>
+
+    <color name="advertising_gray">#f3f3f3</color>
+
+    <!--以下灰度依次递减 又黑到白-->
+    <color name="gray_0">#000000</color>
+    <color name="gray_1">#8e8e93</color> <!--二级文本-->
+    <color name="gray_2">#c8c7cc</color><!--三级文本-->
+    <color name="gray_3">#dcdcdc</color><!--禁用状态-->
+    <color name="gray_4">#000000</color>
+    <color name="warning">#ffa700</color>
+
+
+    <color name="text_view_color">@color/dark_gray</color>
+    <color name="text_view_hint_color">@color/light_gray</color>
+    <color name="input_hint_color">#CCCCCC</color>
+    <color name="disabled_bg">#ededed</color>
+    <color name="cashbox_amount_panel_bg">#232736</color>
+    <color name="cashbox_calculate_text_color">@color/cashbox300_gray</color>
+    <!--通用颜色值-->
+    <color name="white">#ffffff</color>
+    <color name="gray">#d2d2d7</color>
+    <color name="black">@color/text_view_color</color>
+    <color name="orange">#ff6a00</color>
+    <color name="red">#ff3030</color>
+    <color name="green">#3cb034</color>
+    <color name="yellow">#ffae3b</color>
+    <color name="green_pressed">#359a2e</color>
+    <!--深蓝-->
+    <!--version  3.0 style-->
+    <color name="cashbox300_dark">#ff232736</color>
+    <color name="cashbox300_silvery">#efeff4</color>
+    <color name="cashbox300_gray">#bebebe</color>
+    <color name="line_separation">#C8C7CC</color>
+    <color name="orange_nor">@color/orange</color>
+    <color name="orange_press">#e66205</color>
+
+    <color name="app_text_color">@color/text_view_color</color>
+    <color name="app_description_color">@color/text_view_hint_color</color>
+    <color name="titlebar_bg">@color/cashbox300_dark</color>
+    <color name="common_bg">@color/cashbox300_silvery</color>
+    <color name="home_tab_bg">#fbfbfb</color>
+    <color name="bg_account_row_press">@color/gray</color>
+
+    <color name="warn">#eb9a17</color>
+    <color name="transparent_50black">#f02e2f33</color>
+    <color name="sign_order_bottom_color">#fafafa</color>
+    <color name="dark_black">#000000</color>
+    <color name="gray_homepage">#8e8e93</color>
+    <color name="orange_homepage">#ff6d00</color>
+    <color name="homepage_advertising">#1d3a4d</color>
+
+    <color name="settle_service_pause">#e92222</color>
+    <color name="transparent_30_black">#4c000000</color>
+
+
+    <color name="font_orinage">#ff8f3b</color>
+    <color name="font_hint">#8e8e93</color>
+    <color name="text_color">#007aff</color>
+</resources>

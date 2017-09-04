@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2011-2015. ShenZhen iBOXPAY Information Technology Co.,Ltd.
+  ~
+  ~ All right reserved.
+  ~
+  ~ This software is the confidential and proprietary
+  ~ information of iBoxPay Company of China.
+  ~ ("Confidential Information"). You shall not disclose
+  ~ such Confidential Information and shall use it only
+  ~ in accordance with the terms of the contract agreement
+  ~ you entered into with iBoxpay inc.
+  -->
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="false" android:drawable="@drawable/checkbox_nor"/>
+    <item android:state_checked="true" android:drawable="@drawable/checkbox_checked"/>
+</selector>
