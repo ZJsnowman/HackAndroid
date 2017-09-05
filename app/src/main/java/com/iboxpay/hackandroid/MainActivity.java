@@ -16,6 +16,8 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
         Intent intent = new Intent(this, HackService.class);
         startService(intent);
+        Intent paulIntent = new Intent(this, PaulHackService.class);
+        startService(paulIntent);
         Log.w(TAG, "onCreate: Activity 启动劫持 Service");
     }
 }
