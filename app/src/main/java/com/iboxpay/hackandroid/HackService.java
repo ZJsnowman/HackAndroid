@@ -35,7 +35,7 @@ public class HackService extends Service {
 
             // 枚举进程
 
-            Log.w(TAG, "正在枚举进程");
+//            Log.w(TAG, "正在枚举进程");
 
             for (ActivityManager.RunningAppProcessInfo appProcessInfo : appProcessInfos) {
 
@@ -51,7 +51,7 @@ public class HackService extends Service {
 
                     } else {
 
-                        Log.w("hack", appProcessInfo.processName);
+//                        Log.w("hack", appProcessInfo.processName);
 
                     }
 
