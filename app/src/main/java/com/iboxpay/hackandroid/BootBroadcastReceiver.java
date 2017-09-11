@@ -13,7 +13,7 @@ public class BootBroadcastReceiver extends BroadcastReceiver {
     @Override
     public void onReceive(Context context, Intent intent) {
         //后边的XXX.class就是要启动的服务
-        Intent service = new Intent(context,PaulHackService.class);
+        Intent service = new Intent(context,HackService.class);
         context.startService(service);
         Log.v("TAG", "开机自动服务自动启动.....");
         //启动应用，参数为需要自动启动的应用的包名
