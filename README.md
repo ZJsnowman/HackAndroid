@@ -18,6 +18,19 @@ Activity。如果这个Activity是登录界面，那么就可以从中获取用�
 参考 HackService
 
 # 如何反劫持
-
-2.用法很简单，只需要在需要使用检测方法的Activity的onStop()方法中调用工具类的checkActivity()方法，接收返回的boolean值进行判断即可，下面是一个简单示例：
+使用 AntiHijackingUtil 即可.
+用法很简单，只需要在需要使用检测方法的Activity的onStop()方法中调用工具类的checkActivity()方法，接收返回
+的boolean值进行判断即可，下面是一个简单示例：
+```
+@Override
+protected void onStop() {
+    super.onStop();
+    boolean safe = AntiHijackingUtil.checkActivity(this);
+    if (safe){
+        Toast.markText(this, "安全", Toast.LENGTH_LONG).show;
+    } else {
+        Toast.makeText(this, "不安全", Toast.LENGTH_LONG).show;
+    }
+}
+```
 
