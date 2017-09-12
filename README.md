@@ -17,6 +17,8 @@ Activity。如果这个Activity是登录界面，那么就可以从中获取用�
 # 如何劫持的
 参考 HackService
 
+ps:5.0以上上述劫持方法失效,hack程序不在前台的时暂时获取不到当前运行 activity.
+
 # 如何反劫持
 使用 AntiHijackingUtil 即可.
 用法很简单，只需要在需要使用检测方法的Activity的onStop()方法中调用工具类的checkActivity()方法，接收返回
