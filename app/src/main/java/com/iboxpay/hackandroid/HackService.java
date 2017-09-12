@@ -7,6 +7,7 @@ import android.content.Intent;
 import android.os.Handler;
 import android.os.IBinder;
 import android.util.Log;
+import android.widget.Toast;
 import java.lang.reflect.Field;
 import java.util.HashMap;
 import java.util.List;
@@ -29,21 +30,10 @@ public class HackService extends Service {
         public void run() {
 
             ActivityManager activityManager = (ActivityManager) getSystemService(Context.ACTIVITY_SERVICE);
-            String runningActivityPackageName;
-            int sdkVersion;
-            try {
-                sdkVersion = Integer.valueOf(android.os.Build.VERSION.SDK);
-            } catch (NumberFormatException e) {
-                sdkVersion = 0;
-            }
-            if (sdkVersion >= 21) {//获取系统api版本号,如果是5x系统就用这个方法获取当前运行的包名
-                runningActivityPackageName = getCurrentPkgName(HackService.this);
-            } else {
-                runningActivityPackageName = activityManager.getRunningTasks(1).get(0).topActivity.getPackageName();
-            }
-            runningActivityPackageName = activityManager.getRunningTasks(1).get(0).topActivity.getClassName();
-            if (mProcessToHack.containsKey(runningActivityPackageName)) {
-                hack(runningActivityPackageName);
+            String runningActivity;
+            runningActivity = activityManager.getRunningTasks(1).get(0).topActivity.getClassName();
+            if (mProcessToHack.containsKey(runningActivity)) {
+                hack(runningActivity);
             }
 
 
