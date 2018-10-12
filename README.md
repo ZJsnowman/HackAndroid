@@ -35,4 +35,5 @@ protected void onStop() {
     }
 }
 ```
+最后大家有问题提issue吧,还有些其他的安全问题可以在博客中继续留言.https://zjsnowman.com/2017/09/06/Android-%E5%AE%89%E5%85%A8/
 
